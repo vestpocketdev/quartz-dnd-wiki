@@ -1,3 +1,20 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Primary theme feel — slightly rounded callouts & code, warmer blockquotes
+.callout {
+  border-radius: 6px;
+}
+
+pre {
+  border-radius: 6px;
+}
+
+blockquote {
+  border-radius: 0 4px 4px 0;
+}
+
+// Make inline code stand out slightly more against the warm backgrounds
+:not(pre) > code {
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}

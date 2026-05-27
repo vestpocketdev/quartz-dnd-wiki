@@ -8,53 +8,56 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "D&D Wiki",
+    pageTitleSuffix: " | D&D Wiki",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "vestpocketdev.github.io/quartz-dnd-wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "EB Garamond",
+        body: "EB Garamond",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          // manuscript light — aged parchment
+          light: "#f5f0e2",
+          lightgray: "#dfd5b8",
+          gray: "#8c7e68",
+          darkgray: "#4a3e30",
+          dark: "#1c1a17",
+          secondary: "#8a6010",
+          tertiary: "#b03828",
+          highlight: "rgba(138, 96, 16, 0.15)",
+          textHighlight: "#8a601055",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          // manuscript dark — matches homepage oklch palette
+          light: "#1c1a17",
+          lightgray: "#302b1f",
+          gray: "#7a6e58",
+          darkgray: "#a89880",
+          dark: "#d5c9a8",
+          secondary: "#c89415",
+          tertiary: "#c04238",
+          highlight: "rgba(200, 148, 21, 0.15)",
+          textHighlight: "#c8941555",
         },
       },
     },
   },
   plugins: {
     transformers: [
+      Plugin.DataviewPlugin(),
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
@@ -62,7 +65,7 @@ const config: QuartzConfig = {
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
-          dark: "github-dark",
+          dark: "rose-pine",
         },
         keepBackground: false,
       }),

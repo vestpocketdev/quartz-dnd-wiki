@@ -17,7 +17,9 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "build": "node scripts/generate-wiki-data.mjs && npx quartz build && cp content/index.html public/index.html",
+    "preview": "npm run build && npx serve public -l 8080"
   },
   "engines": {
     "npm": ">=10.9.2",
