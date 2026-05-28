@@ -19,7 +19,8 @@
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "build": "node scripts/generate-wiki-data.mjs && npx quartz build && cp content/index.html public/index.html",
-    "preview": "npm run build && npx serve public -l 8080"
+    "preview": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -111,6 +112,7 @@
     "esbuild": "^0.27.2",
     "prettier": "^3.8.1",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "wrangler": "^4.95.0"
   }
 }
