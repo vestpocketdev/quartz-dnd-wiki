@@ -18,7 +18,7 @@
     {
       "campaign": "example-campaign",
       "kind": "Session",
-      "title": "[Session 001 — Title]",
+      "title": "[Session 001 - Title]",
       "when": "4 months ago"
     }
   ],

@@ -10,7 +10,7 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 # <% tp.file.title %>
 
 > [!info] World Summary
-> Brief description of this world — tone, setting, era.
+> Brief description of this world - tone, setting, era.
 
 ## Overview
 

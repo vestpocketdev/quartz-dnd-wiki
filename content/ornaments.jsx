@@ -1,4 +1,4 @@
-// Simple geometric ornaments — no faux-illuminated illustration.
+// Simple geometric ornaments - no faux-illuminated illustration.
 // Hairline rules with a centered diamond, corner brackets, drop caps.
 
 const RuleDiamond = ({ width = "100%", color = "var(--rule)", accent = "var(--gilt-dim)" }) => (
@@ -29,7 +29,7 @@ const CornerBrackets = ({ size = 18, color = "var(--gilt-dim)", inset = 8 }) => 
   );
 };
 
-// Decorative leaf-glyph between section headings — drawn from primitives only.
+// Decorative leaf-glyph between section headings - drawn from primitives only.
 const SectionGlyph = ({ size = 22, color = "var(--gilt)" }) => (
   <svg width={size} height={size} viewBox="0 0 22 22" style={{ display: "inline-block", verticalAlign: "middle" }}>
     <g stroke={color} strokeWidth="1" fill="none" vectorEffect="non-scaling-stroke">
@@ -41,7 +41,7 @@ const SectionGlyph = ({ size = 22, color = "var(--gilt)" }) => (
   </svg>
 );
 
-// Status sigil — small filled mark whose color encodes status.
+// Status sigil - small filled mark whose color encodes status.
 const StatusSigil = ({ status }) => {
   const map = {
     active:    { c: "var(--gilt)",       label: "active"    },

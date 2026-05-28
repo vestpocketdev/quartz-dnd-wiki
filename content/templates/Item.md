@@ -15,7 +15,7 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 > [!info]
 > **Rarity:** `=this.rarity` | **Attunement:** `=this.attunement` | **Owner:** `=this.owner`
 
-*Item type — weapon / armor / wondrous item / etc.*
+*Item type - weapon / armor / wondrous item / etc.*
 
 ## Description
 

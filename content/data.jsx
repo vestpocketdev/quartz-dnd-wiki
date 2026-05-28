@@ -24,7 +24,7 @@ const STATUS_LABEL = {
   concluded: "concluded",
 };
 
-// Recent updates feed — add entries here as you create wiki content.
+// Recent updates feed - add entries here as you create wiki content.
 // kind: "Session" | "NPC" | "Location" | "Item" | "Lore" | "Map" | "Entry"
 // when: freeform relative date string (displayed as-is)
 const UPDATES = [

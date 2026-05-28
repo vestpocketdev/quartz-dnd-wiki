@@ -10,7 +10,7 @@ tags:
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
-# Session <% tp.system.prompt("Session number") %> — <% tp.file.title %>
+# Session <% tp.system.prompt("Session number") %> - <% tp.file.title %>
 
 **Date played:** <% tp.date.now("MMMM Do, YYYY") %>
 

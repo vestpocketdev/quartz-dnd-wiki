@@ -27,9 +27,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Points of Interest
-- **Lorem Ipsum** — Dolor sit amet, consectetur adipiscing elit.
-- **Sed Do Eiusmod** — Tempor incididunt ut labore et dolore magna aliqua.
-- **Ut Enim** — Ad minim veniam, quis nostrud exercitation ullamco laboris.
+- **Lorem Ipsum** - Dolor sit amet, consectetur adipiscing elit.
+- **Sed Do Eiusmod** - Tempor incididunt ut labore et dolore magna aliqua.
+- **Ut Enim** - Ad minim veniam, quis nostrud exercitation ullamco laboris.
 
 ## NPCs Here
 

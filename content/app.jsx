@@ -13,7 +13,7 @@ const ENTITY_LABEL = {
 };
 
 // ────────────────────────────────────────────────────────────────────────────
-// Masthead — title, opening incipit, search.
+// Masthead - title, opening incipit, search.
 // ────────────────────────────────────────────────────────────────────────────
 function Masthead({ query, setQuery, resultCount }) {
   const inputRef = useRef(null);
@@ -55,7 +55,7 @@ function Masthead({ query, setQuery, resultCount }) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search the archive — title, world, party, NPCs…"
+            placeholder="Search the archive - title, world, party, NPCs…"
             style={mastheadStyles.searchInput}
           />
           <kbd style={mastheadStyles.kbd}>/</kbd>
@@ -162,7 +162,7 @@ const mastheadStyles = {
 };
 
 // ────────────────────────────────────────────────────────────────────────────
-// Filter rail — status chips + count.
+// Filter rail - status chips + count.
 // ────────────────────────────────────────────────────────────────────────────
 function FilterRail({ status, setStatus, counts }) {
   const items = [
@@ -263,7 +263,7 @@ function CoverPlaceholder({ title }) {
 }
 
 // ────────────────────────────────────────────────────────────────────────────
-// Campaign card — cover image, blackletter title, setting, tagline, meta.
+// Campaign card - cover image, blackletter title, setting, tagline, meta.
 // ────────────────────────────────────────────────────────────────────────────
 function CampaignCard({ campaign, index, highlight, dim }) {
   const c = campaign;
@@ -446,7 +446,7 @@ const cardStyles = {
 };
 
 // ────────────────────────────────────────────────────────────────────────────
-// Latest Inscriptions — recent updates feed.
+// Latest Inscriptions - recent updates feed.
 // ────────────────────────────────────────────────────────────────────────────
 function UpdatesFeed({ items, campaignsBySlug, query }) {
   return (
@@ -577,7 +577,7 @@ function Colophon() {
         fontFamily: "var(--serif)", fontStyle: "italic", fontSize: 14,
         color: "var(--vellum-mute)", marginTop: 14,
       }}>
-        Memento mori — the party, too, is mortal.
+        Memento mori - the party, too, is mortal.
       </div>
     </footer>
   );
@@ -853,7 +853,7 @@ function EmptyState({ query, clear }) {
         Nil inveniri potest.
       </div>
       <div style={{ fontFamily: "var(--serif)", fontStyle: "italic", fontSize: 16, marginTop: 10, color: "var(--vellum-mute)" }}>
-        Nothing in this archive answers to <em style={{ color: "var(--vellum)" }}>“{query || "—"}”</em>.
+        Nothing in this archive answers to <em style={{ color: "var(--vellum)" }}>“{query || "-"}”</em>.
       </div>
       <button
         onClick={clear}

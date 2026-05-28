@@ -1,5 +1,5 @@
 ---
-title: "[Session 001 — Title]"
+title: "[Session 001 - Title]"
 type: session
 campaign: Example Campaign
 world: Example World
@@ -10,7 +10,7 @@ tags:
 created: 2026-01-01
 ---
 
-# Session 001 — [Title]
+# Session 001 - [Title]
 
 **Date played:** January 1st, 2026
 
