@@ -1,11 +1,38 @@
-.DS_Store
-.gitignore
-node_modules
-public
-prof
+# Dependencies
+node_modules/
+
+# Build output
+public/
+.quartz-cache/
+
+# TypeScript
 tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
+
+# Obsidian
+.obsidian/
+.trash/
+
+# Private content
 private/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Profiling
+prof/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Replit
 .replit
 replit.nix

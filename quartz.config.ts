@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "D&D Wiki",
-    pageTitleSuffix: " | D&D Wiki",
+    pageTitle: "Grimoire",
+    pageTitleSuffix: " | Grimoire",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

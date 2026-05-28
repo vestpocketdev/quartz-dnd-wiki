@@ -1,10 +1,12 @@
 import { globby } from 'globby'
 import { readFileSync, writeFileSync, mkdirSync } from 'fs'
+import { fileURLToPath } from 'url'
 import matter from 'gray-matter'
 import path from 'path'
 
-const CONTENT = 'content'
-const OUT = 'content/wiki-data.json'
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+const CONTENT = path.join(ROOT, 'content')
+const OUT = path.join(ROOT, 'content', 'wiki-data.json')
 
 // Quartz slugifies spaces as hyphens, preserves case and brackets.
 const toHref = (file) => file
