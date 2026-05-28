@@ -1,5 +1,5 @@
 import { globby } from 'globby'
-import { readFileSync, writeFileSync } from 'fs'
+import { readFileSync, writeFileSync, mkdirSync } from 'fs'
 import matter from 'gray-matter'
 import path from 'path'
 
@@ -120,5 +120,6 @@ entities.sort((a, b) => a.type.localeCompare(b.type) || a.title.localeCompare(b.
 
 // ── Write ────────────────────────────────────────────────────────────────────
 
+mkdirSync(CONTENT, { recursive: true })
 writeFileSync(OUT, JSON.stringify({ campaigns, recentSessions, entities }, null, 2))
 console.log(`✓ wiki-data.json — ${campaigns.length} campaign(s), ${recentSessions.length} recent session(s), ${entities.length} entity(ies)`)

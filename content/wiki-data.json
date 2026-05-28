@@ -1,0 +1,51 @@
+{
+  "campaigns": [
+    {
+      "slug": "example-campaign",
+      "title": "Example Campaign",
+      "world": "Example World",
+      "setting": "Example World",
+      "tagline": "",
+      "status": "active",
+      "system": "D&D 5e",
+      "sessions": 1,
+      "party": [],
+      "cover": null,
+      "href": "Worlds/Example-World/Campaigns/Example-Campaign/Example-Campaign"
+    }
+  ],
+  "recentSessions": [
+    {
+      "campaign": "example-campaign",
+      "kind": "Session",
+      "title": "[Session 001 — Title]",
+      "when": "4 months ago"
+    }
+  ],
+  "entities": [
+    {
+      "type": "faction",
+      "title": "[Faction Name]",
+      "world": "Example World",
+      "href": "Worlds/Example-World/Factions/[Faction-Name]"
+    },
+    {
+      "type": "item",
+      "title": "[Item Name]",
+      "world": "Example World",
+      "href": "Worlds/Example-World/Items/[Item-Name]"
+    },
+    {
+      "type": "location",
+      "title": "[Location Name]",
+      "world": "Example World",
+      "href": "Worlds/Example-World/Locations/[Location-Name]"
+    },
+    {
+      "type": "npc",
+      "title": "[NPC Name]",
+      "world": "Example World",
+      "href": "Worlds/Example-World/NPCs/[NPC-Name]"
+    }
+  ]
+}
