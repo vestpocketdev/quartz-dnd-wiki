@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "umami",
     },
     locale: "en-US",
-    baseUrl: "vestpocketdev.github.io/quartz-dnd-wiki",
+    baseUrl: "dungeons-and-dragons.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
