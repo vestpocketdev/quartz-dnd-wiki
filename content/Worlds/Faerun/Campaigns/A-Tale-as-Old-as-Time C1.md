@@ -7,7 +7,7 @@ status: active
 dm: Coby
 players:
   - Mike, Matt, Cole, Ian, Henry
-cover:
+cover: waterdeep.jpg
 started: 2026-05-30
 tags:
   - campaign
@@ -17,7 +17,7 @@ created: 2026-05-30
 # A-Tale-as-Old-as-Time
 
 > [!info] Campaign Summary
-> One-paragraph pitch for this campaign.
+> Coby's home game with friends
 
 ## Party
 
