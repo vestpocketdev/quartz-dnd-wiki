@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/coby/quartz-dnd-wiki/quartz-dnd-wiki ls-files --error-unmatch content/)",
+      "Bash(git -C /home/coby/quartz-dnd-wiki/quartz-dnd-wiki ls-files content/)",
+      "Bash(npm run *)",
+      "Read(//home/coby/quartz-dnd-wiki/**)",
+      "Read(//home/coby/**)",
+      "Bash(/usr/local/bin/node --version)",
+      "Bash(/usr/bin/node *)",
+      "Bash(cp *)",
+      "Bash(rm /home/coby/quartz-dnd-wiki/quartz-dnd-wiki/content)",
+      "Bash(mv /tmp/content-wsl /home/coby/quartz-dnd-wiki/quartz-dnd-wiki/content)",
+      "Bash(npm audit *)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\)\\); Object.values\\(d.vulnerabilities\\).forEach\\(v=>console.log\\(v.severity, v.name, v.fixAvailable\\)\\)\")",
+      "Bash(git add *)",
+      "Bash(mv '/home/coby/quartz-dnd-wiki/quartz-dnd-wiki/public/Worlds/Example-World/Campaigns/Example-Campaign/Sessions/[Session-001-—-Title]-og-image.webp' '/home/coby/quartz-dnd-wiki/quartz-dnd-wiki/public/Worlds/Example-World/Campaigns/Example-Campaign/Sessions/[Session-001--Title]-og-image.webp')",
+      "Bash(mv '/home/coby/quartz-dnd-wiki/quartz-dnd-wiki/public/Worlds/Example-World/Campaigns/Example-Campaign/Sessions/[Session-001-—-Title].html' '/home/coby/quartz-dnd-wiki/quartz-dnd-wiki/public/Worlds/Example-World/Campaigns/Example-Campaign/Sessions/[Session-001--Title].html')",
+      "Bash(git -C /home/coby/quartz-dnd-wiki/quartz-dnd-wiki log --oneline -10)",
+      "Bash(git -C /mnt/c/Users/cobyt/OneDrive/Public/DnD-wiki log --oneline -10)",
+      "Read(//mnt/c/Users/cobyt/OneDrive/Desktop/**)",
+      "Read(//mnt/c/Users/cobyt/**)",
+      "Bash(git -C /mnt/c/Users/cobyt/OneDrive/Desktop/wiki log --oneline -5)",
+      "Bash(rsync -av --no-perms --no-owner --no-group --exclude=node_modules/ --exclude=public/ /home/coby/quartz-dnd-wiki/quartz-dnd-wiki/ /mnt/c/Users/cobyt/OneDrive/Desktop/wiki/)"
+    ]
+  }
+}

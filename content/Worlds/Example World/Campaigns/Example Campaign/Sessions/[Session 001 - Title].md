@@ -44,4 +44,4 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 - [[Item Name]]
 
 ## XP & Rewards
-- 000 XP each
+- testing
