@@ -7,7 +7,7 @@ status: active
 dm: Coby
 players:
   - Mike, Matt, Cole, Ian, Henry
-cover: waterdeep.jpg
+cover: media/campaigns/waterdeep.jpg
 started: 2026-05-30
 tags:
   - campaign
